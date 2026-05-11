@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package net.enderman.nhcoins;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class NewHorizonsCoins implements ModInitializer {
     
     @Override
     public void onInitialize() {

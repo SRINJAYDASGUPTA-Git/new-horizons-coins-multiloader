@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package net.enderman.nhcoins.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import net.enderman.nhcoins.Constants;
+import net.enderman.nhcoins.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

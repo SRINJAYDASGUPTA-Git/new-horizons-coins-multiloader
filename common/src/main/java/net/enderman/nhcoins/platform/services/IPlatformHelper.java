@@ -1,4 +1,4 @@
-package com.example.examplemod.platform.services;
+package net.enderman.nhcoins.platform.services;
 
 public interface IPlatformHelper {
 
