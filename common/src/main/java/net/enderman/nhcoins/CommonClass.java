@@ -1,5 +1,6 @@
 package net.enderman.nhcoins;
 
+import net.enderman.nhcoins.init.ModItems;
 import net.enderman.nhcoins.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
@@ -27,5 +28,7 @@ public class CommonClass {
 
             Constants.LOG.info("Hello to nhcoins");
         }
+
+        ModItems.load();
     }
 }
