@@ -1,6 +1,6 @@
 package net.enderman.nhcoins;
 
-import net.enderman.nhcoins.platform.Services;
+import net.enderman.nhcoins.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
 

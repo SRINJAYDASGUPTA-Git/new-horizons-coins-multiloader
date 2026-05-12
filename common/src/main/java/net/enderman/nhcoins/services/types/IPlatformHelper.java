@@ -1,4 +1,4 @@
-package net.enderman.nhcoins.platform.services;
+package net.enderman.nhcoins.services.types;
 
 public interface IPlatformHelper {
 

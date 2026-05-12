@@ -1,6 +1,6 @@
-package net.enderman.nhcoins.platform;
+package net.enderman.nhcoins.services;
 
-import net.enderman.nhcoins.platform.services.IPlatformHelper;
+import net.enderman.nhcoins.services.types.IPlatformHelper;
 import net.neoforged.fml.ModList;
 import net.neoforged.fml.loading.FMLLoader;
 
