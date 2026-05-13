@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "nhcoins",
+  "key": {
+    "l": "nhcoins:void_shards"
+  },
+  "pattern": [
+    "lll",
+    "lll",
+    "lll"
+  ],
+  "result": {
+    "id": "nhcoins:voidcore_ingot"
+  }
+}

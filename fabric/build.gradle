@@ -47,3 +47,9 @@ sourceSets.configureEach {
         }
     }
 }
+fabricApi {
+    configureDataGeneration() {
+        client = true
+        outputDirectory = rootProject.project(':common').file('src/main/generated')
+    }
+}
