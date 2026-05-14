@@ -18,6 +18,5 @@ public class NewHorizonsCoins {
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
         NeoForgeRegistryHelper.register(eventBus);
-
     }
 }

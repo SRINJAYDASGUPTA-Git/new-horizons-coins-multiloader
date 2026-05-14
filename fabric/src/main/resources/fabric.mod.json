@@ -15,8 +15,14 @@
     "icon": "${mod_id}.png",
     "environment": "*",
     "entrypoints": {
+        "fabric-datagen": [
+            "net.enderman.nhcoins.NewHorizonsDataGenerator"
+        ],
         "main": [
             "net.enderman.nhcoins.NewHorizonsCoins"
+        ],
+        "client": [
+            "net.enderman.nhcoins.NewHorizonsCoinsClient"
         ]
     },
     "depends": {

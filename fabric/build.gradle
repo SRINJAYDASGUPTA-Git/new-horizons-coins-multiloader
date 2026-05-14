@@ -47,3 +47,15 @@ sourceSets.configureEach {
         }
     }
 }
+def sharedGeneratedDir = rootProject.project(':common').file('src/main/generated')
+
+fabricApi {
+    configureDataGeneration() {
+        client = true
+        outputDirectory = sharedGeneratedDir
+    }
+}
+
+sourceSets.main.resources {
+    srcDirs -= sharedGeneratedDir
+}
