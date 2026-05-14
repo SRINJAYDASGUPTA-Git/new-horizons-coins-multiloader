@@ -17,6 +17,7 @@ public class NewHorizonsCoins {
         // Use NeoForge to bootstrap the Common mod.
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
+        CommonClassClient.init();
         NeoForgeRegistryHelper.register(eventBus);
     }
 }

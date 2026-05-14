@@ -1,0 +1,8 @@
+{
+  "type": "nhcoins:coin_smithing",
+  "input": "minecraft:diamond",
+  "result": {
+    "id": "nhcoins:bronze_sickles",
+    "count": 4
+  }
+}

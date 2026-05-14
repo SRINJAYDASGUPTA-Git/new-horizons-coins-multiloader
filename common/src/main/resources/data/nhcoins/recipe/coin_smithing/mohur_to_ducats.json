@@ -1,0 +1,8 @@
+{
+  "type": "nhcoins:coin_smithing",
+  "input": "nhcoins:gold_mohur",
+  "result": {
+    "id": "nhcoins:silver_ducats",
+    "count": 8
+  }
+}
