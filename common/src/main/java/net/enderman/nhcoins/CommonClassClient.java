@@ -8,7 +8,7 @@ import net.minecraft.client.gui.screens.MenuScreens;
 public class CommonClassClient {
 
     public static void init(){
-        Services.REGISTRY.registerMenuScreen(
+        Services.CLIENT_REGISTRY.registerMenuScreen(
                 ModMenus.COIN_SMITH_MENU, CoinSmithScreen::new
         );
     }

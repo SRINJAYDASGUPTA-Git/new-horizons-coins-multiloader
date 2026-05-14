@@ -91,10 +91,4 @@ public interface IRegistryHelper {
             String name,
             MenuFactory<T> constructor
     );
-
-    <T extends AbstractContainerMenu, U extends Screen & MenuAccess<T>>
-    void registerMenuScreen(
-            RegistryHandle<MenuType<T>> menu,
-            ScreenFactory<T, U> screenFactory
-    );
 }

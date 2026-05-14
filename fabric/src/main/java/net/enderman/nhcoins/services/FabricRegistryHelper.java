@@ -145,12 +145,4 @@ public class FabricRegistryHelper implements IRegistryHelper {
         };
     }
 
-    @Override
-    public <T extends AbstractContainerMenu, U extends Screen & MenuAccess<T>> void registerMenuScreen(RegistryHandle<MenuType<T>> menu, ScreenFactory<T, U> screenFactory) {
-        MenuScreens.register(
-                menu.get(),
-                screenFactory::create
-        );
-    }
-
 }
