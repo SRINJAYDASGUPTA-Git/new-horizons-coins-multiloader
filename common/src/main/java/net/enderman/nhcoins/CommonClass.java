@@ -2,6 +2,8 @@ package net.enderman.nhcoins;
 
 import net.enderman.nhcoins.init.ModBlocks;
 import net.enderman.nhcoins.init.ModItems;
+import net.enderman.nhcoins.init.ModMenus;
+import net.enderman.nhcoins.init.ModRecipes;
 import net.enderman.nhcoins.services.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
@@ -32,5 +34,7 @@ public class CommonClass {
 
         ModItems.load();
         ModBlocks.load();
+        ModRecipes.load();
+        ModMenus.load();
     }
 }

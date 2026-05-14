@@ -1,6 +1,6 @@
 package net.enderman.nhcoins.init;
 
-import net.enderman.nhcoins.custom.blocks.CoinSmithBlock;
+import net.enderman.nhcoins.blocks.CoinSmithBlock;
 import net.enderman.nhcoins.services.Services;
 import net.enderman.nhcoins.services.util.BlockWithItemRegistryHolder;
 import net.minecraft.util.valueproviders.UniformInt;

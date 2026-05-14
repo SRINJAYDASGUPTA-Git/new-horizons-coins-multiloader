@@ -1,0 +1,8 @@
+{
+  "type": "nhcoins:coin_smithing",
+  "input": "nhcoins:voidcore_ingot",
+  "result": {
+    "id": "nhcoins:gold_mohur",
+    "count": 4
+  }
+}

@@ -1,6 +1,7 @@
 package net.enderman.nhcoins;
 
 
+import net.enderman.nhcoins.services.NeoForgeClientRegistryHelper;
 import net.enderman.nhcoins.services.NeoForgeRegistryHelper;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -18,5 +19,6 @@ public class NewHorizonsCoins {
         Constants.LOG.info("Hello NeoForge world!");
         CommonClass.init();
         NeoForgeRegistryHelper.register(eventBus);
+//        NeoForgeClientRegistryHelper.register(eventBus);
     }
 }
